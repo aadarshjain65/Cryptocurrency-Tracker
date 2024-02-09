@@ -1,0 +1,87 @@
+.cryptocurrency-tracker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 88%;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+  color: #00e7ff;
+  text-align: center;
+  margin: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  .heading {
+    font-size: 48px;
+  }
+}
+
+.cryptocurrency-image {
+  width: 280px;
+}
+
+@media screen and (min-width: 992px) {
+  .cryptocurrency-image {
+    width: 950px;
+  }
+}
+.cryptocurrency-list-container {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #00e7ff;
+  border-radius: 8px;
+  margin-top: 48px;
+  align-self: stretch;
+}
+
+.titles-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #092e33;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .titles-container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.usd-and-euro-titles {
+  display: flex;
+  align-items: center;
+}
+
+.usd {
+  margin-right: 24px;
+}
+
+@media screen and (min-width: 576px) {
+  .usd {
+    margin-right: 48px;
+  }
+}
+.crpytocurrency-list {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .cryptocurrency-list {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
